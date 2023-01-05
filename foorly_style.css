@@ -83,7 +83,7 @@ p {
 
 #sidenav {
     top: 0%;
-    right: -180px;
+    right: -190px;
     position: fixed;
     width: 180px;
     background-color: rgba(0, 0, 0, 0.7);
@@ -108,7 +108,7 @@ nav ul li a:hover {
     color: rgb(227, 103, 103); ;
 }
 nav ul li a button {
-    padding: 10px 20px;
+    padding: 10px 15px;
     background-color: transparent;
     border: 2px solid rgb(227, 103, 103);
     border-radius: 5px;
@@ -118,7 +118,7 @@ nav ul li a button {
     color: white;
 }
 nav ul li a button:hover {
-    padding: 10px 25px;
+    padding: 10px 20px;
 }
 #menubtn {
     font-size: 30px;
@@ -162,4 +162,57 @@ h3 {
     font-size: 17px;
     color: rgb(175, 175, 175);
     font-weight: 400;
+}
+
+/* features */
+
+#features {
+    margin: 100px 0;
+}
+.features_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 80%;
+    /* flex-wrap: wrap; */
+}
+.features_col {
+    flex-basis: 30%;
+    text-align: center;
+}
+.features_col img {
+    width: 100px;
+}
+h4 {
+    font-size: 16px;
+    margin: 5px 0 18px;
+}
+.startfreetrial_btn {    
+/* margin: 20px 0; */
+    padding: 15px 30px;
+    background: transparent;
+    border: 2px solid rgb(227, 103, 103);
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.startfreetrial_btn:hover {
+    padding: 15px 35px;
+}
+.startfreetrial_btn a {
+    text-decoration: none;
+    color: black;
+}
+.features_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 80px auto 0;
+}
+.features_btn .line {
+    text-align: right;
+    margin-right: 20px;
 }
