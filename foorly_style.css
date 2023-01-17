@@ -420,4 +420,17 @@ nav ul li a button {
 }
 @media screen and (max-width: 815px) {
      
+    .contact_right_col  img {
+        margin-left: 50px;
+    }
+    .children {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left: -180px;
+        max-width: 350px;
+        
+    }
+
 }
