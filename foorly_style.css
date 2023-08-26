@@ -349,11 +349,12 @@ footer p a:hover {
     .about_right_column {
         margin-left: 40px;
         margin-top: 20px;
+        /* margin: auto; */
         text-align: left;
     }
     
-    .about_text {
-    margin-right: 50px;
+    .about_text .children {
+    margin: auto;
     }
     h2 {
     font-size: 18px;
