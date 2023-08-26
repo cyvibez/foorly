@@ -111,7 +111,7 @@ nav ul li a button:hover {
     padding: 10px 20px;
 }
 #menubtn {
-    font-size: 30px;
+    font-size: 20px;
     position: fixed;
     top: 35px;
     right: 65px;
@@ -119,6 +119,16 @@ nav ul li a button:hover {
     cursor: pointer;
 }
 
+#menubtn2 {
+    display: none;
+    font-size: 20px;
+    position: fixed;
+    top: 35px;
+    right: 70px;
+    z-index: 2;
+    cursor: pointer;
+    color: green;
+}
 /* about */
 
 #about {
